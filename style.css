@@ -13,6 +13,9 @@
 .form-size{
     margin-left: 200px;
 }
+.btn-color{
+    background-color: #285F97;
+}
 .form-size input{
     width: 500px;
     height: 40px;
@@ -28,4 +31,14 @@
 }
 .third-navbar ul li a:hover{
     background-color: #285F97;
+}
+.whole-wrapper{
+    background-color: #F3F3F3;
+}
+.cat{
+    background-color: #F8D766;
+    
+}
+.bg-cat{
+    background: white;
 }
