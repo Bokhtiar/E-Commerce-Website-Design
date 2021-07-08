@@ -7,3 +7,25 @@
 .text-color ul li a{
     color: white;
 }
+.secound-navbar ul li a{
+    color:white;
+}
+.form-size{
+    margin-left: 200px;
+}
+.form-size input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.third-navbar ul li a{
+    color: white;
+    border: 0.1px;
+    border-style: inset;
+    border-color: #318fec;
+    
+}
+.third-navbar ul li a:hover{
+    background-color: #285F97;
+}
