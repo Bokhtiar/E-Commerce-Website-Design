@@ -17,7 +17,7 @@
     background-color: #285F97;
 }
 .form-size input{
-    width: 500px;
+    width: 480px;
     height: 40px;
     border-radius: 10px;
 }
@@ -199,6 +199,15 @@
 {
   background-color:#ea4c89
 }
+.btn-color{
+  background-color: #3A84CD;
+  color: white;
+}
+.details{
+  background-color: #3A84CD;
+  color: white;
+}
+
 @media (max-width:767px)
 {
   .social-icons li.title

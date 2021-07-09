@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
+    <script src="https://kit.fontawesome.com/ba78558982.js" crossorigin="anonymous"></script>
     <title>Bahadur || Bazar</title>
   </head>
   <body>
@@ -25,14 +25,20 @@
                                     </button>
                                     <div class="text-color collapse navbar-collapse" id="navbarNav">
                                     <ul class="navbar-nav ml-auto">
-                                        <li class="nav-item active">
-                                        <a class="nav-link" href="#">My Account <span class="sr-only">(current)</span></a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             <span><i class="fas fa-user-circle"></i></span>  My Account
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                              <a class="dropdown-item text-dark" href="#">Login</a>
+                                              <a class="dropdown-item text-dark" href="#">Register</a>
+                                            </div>
+                                          </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="#"> <span><i class="fas fa-shopping-cart"></i></span> My Cart</a>
                                         </li>
                                         <li class="nav-item">
-                                        <a class="nav-link" href="#">My Cart</a>
-                                        </li>
-                                        <li class="nav-item">
-                                        <a class="nav-link" href="#">Chcekout</a>
+                                        <a class="nav-link" href="#"> <span><i class="fas fa-credit-card"></i></span> Chcekout</a>
                                         </li>
                                     
                                     </ul>
@@ -56,7 +62,7 @@
                                     </form>
                                 <ul class="navbar-nav ">
                                     <li class="nav-item">
-                                    <a class="btn-color nav-link btn btn-sm" href="#">Cart-$200</a>
+                                    <a class="btn-color nav-link btn btn-sm" href="#"> <span><i class="fas fa-shopping-cart"></i></span> Cart-$200</a>
                                     </li>
                                     
                                     
@@ -118,12 +124,13 @@
                                         <div class="col-sm-12 col-md-3 col-lg-3 mt-3">
                                             <h3 class="cat">Categorie's</h3>
                                             <div class="bg-cat">
-                                                <span>Category Name</span> <hr>
-                                                <span>Category Name</span> <hr>
-                                                <span>Category Name</span> <hr>
-                                                <span>Category Name</span> <hr>
-                                                <span>Category Name</span> <hr>
-                                                <span>Category Name</span> <hr>
+                                                <span> <img height="20px" width="20px" src="images/man.png" alt=""> Gents Dress</span> <hr>
+                                                <span><img height="20px" width="20px" src="images/kids.png" alt="">Kid's</span> <hr>
+                                                <span><img height="20px" width="20px" src="images/women.png" alt="">Women Dress</span> <hr>
+                                                <span> <img height="20px" width="20px" src="images/man.png" alt=""> Gents Dress</span> <hr>
+                                                <span><img height="20px" width="20px" src="images/kids.png" alt="">Kid's</span> <hr>
+                                                <span><img height="20px" width="20px" src="images/women.png" alt="">Women Dress</span> <hr>
+                                                <span> <img height="20px" width="20px" src="images/man.png" alt=""> Gents Dress</span> <hr>
                                             </div>
                                         </div>
                                     <!--show category list end-->
