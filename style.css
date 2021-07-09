@@ -1,5 +1,8 @@
+body{
+  font: caption;
+}
 .bg-color{
-    background-color: #3A84CD;
+    background-color: #34495E;
 }
 .first-navbar{
     height: 20px;
@@ -26,14 +29,14 @@
     color: white;
     border: 0.1px;
     border-style: inset;
-    border-color: #318fec;
+    border-color: #695D5F;
     
 }
 .third-navbar ul li a:hover{
-    background-color: #285F97;
+    background-color:  black;
 }
 .whole-wrapper{
-    background-color: #F3F3F3;
+    background-color: #EBEDEF;
 }
 .cat{
     background-color: #F8D766;
